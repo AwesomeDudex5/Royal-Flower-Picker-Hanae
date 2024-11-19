@@ -1,0 +1,2 @@
+#name Jeffery #sprite basic
+Hi there Hanae. I opened up the gate to the lake south of the village. The view is pretty nice and it's really relaxing to take a walk there. Feel free to take a stroll whenever you have the time.

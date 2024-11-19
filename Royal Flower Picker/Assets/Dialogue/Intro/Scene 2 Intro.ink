@@ -1,0 +1,2 @@
+#name Jeffery #sprite basic
+Hi there, Hanae. I opened the gate to the ruins north of the village. Feel free to explore that area. If you need any help, come see me at my house, center-north of the village.

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8610427617180183680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8610427617180183694}
+  - component: {fileID: 8610427617180183681}
+  m_Layer: 0
+  m_Name: Character Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8610427617180183694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8610427617180183680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 66.46743, y: -25.169933, z: -2.0474496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8610427617180183681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8610427617180183680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 733f2ff5a34605f4ca32050edfab3744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterSprites:
+  - name: Anko
+    sprite: {fileID: 21300000, guid: 4ebba0931cd7d9f48b220ba143f1a740, type: 3}
+  - name: Anko
+    sprite: {fileID: 21300000, guid: 3033999a508e3414cbffa39c2c55439f, type: 3}
+  - name: Anko
+    sprite: {fileID: 21300000, guid: 32907bec4b735484b89c58383b555183, type: 3}
+  - name: Anko
+    sprite: {fileID: 21300000, guid: 26a1bb2419ff6974dbb7d505160dd4ff, type: 3}
+  - name: Hanae
+    sprite: {fileID: 21300000, guid: b91c7f8041960214aad29259edcf758a, type: 3}
+  - name: Hanae
+    sprite: {fileID: 21300000, guid: 70a49168cb9f04940b3de2aa73f20ce9, type: 3}
+  - name: Hanae
+    sprite: {fileID: 21300000, guid: 85e74f0727afeed4fb3a1d95d367cb8b, type: 3}
+  - name: Hanae
+    sprite: {fileID: 21300000, guid: a50d5a5da1da9c64db03914a96d4f0c0, type: 3}
+  - name: Isaac
+    sprite: {fileID: 21300000, guid: 5333dc30897dc5449a8854fd09e5875e, type: 3}
+  - name: Isaac
+    sprite: {fileID: 21300000, guid: 655be81662d468246b863e23aed2fac5, type: 3}
+  - name: Isaac
+    sprite: {fileID: 21300000, guid: 443d3cc7358d8e545a8ae54220d63e23, type: 3}
+  - name: Jeffery
+    sprite: {fileID: 21300000, guid: 45a6d88468640584a8995f05e201c15b, type: 3}
+  - name: Jeffery
+    sprite: {fileID: 21300000, guid: d3b4862d13e4f504cb5a25fb9f8bff20, type: 3}
+  - name: John
+    sprite: {fileID: 21300000, guid: e1ce65422926f134ba3013191558a61e, type: 3}
+  - name: John
+    sprite: {fileID: 21300000, guid: 11d1cb4f9603c9346beddb95288a1bb1, type: 3}
+  - name: John
+    sprite: {fileID: 21300000, guid: 2b84781653c619a44b22e67bcfb159dd, type: 3}
+  - name: John
+    sprite: {fileID: 21300000, guid: ce2b25e14acac1845ae321236f8e1b8f, type: 3}
+  - name: Kat
+    sprite: {fileID: 21300000, guid: ddaac285a540b564b8babfa094bdade0, type: 3}
+  - name: Kat
+    sprite: {fileID: 21300000, guid: d12b2bfe9de45ce4d99d2fd959a90a19, type: 3}
+  - name: Kat
+    sprite: {fileID: 21300000, guid: 2d2debce6dbfed84d9a5a56c5104527d, type: 3}

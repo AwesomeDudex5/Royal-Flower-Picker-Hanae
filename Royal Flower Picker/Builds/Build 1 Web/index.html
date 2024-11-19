@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Royal Flower Picker</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/Build 1 Web.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/Build 1 Web.data.gz",
+        frameworkUrl: "Build/Build 1 Web.framework.js.gz",
+        codeUrl: "Build/Build 1 Web.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Teitoku_Lowliet",
+        productName: "Royal Flower Picker",
+        productVersion: "1",
+      });
+    </script>
+  </body>
+</html>
